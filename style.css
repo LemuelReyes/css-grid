@@ -1,0 +1,9 @@
+body {
+  background-color: rgba(26,188,156 ,1);
+}
+
+aside, 
+main {
+  background-color: #fff;
+  padding: 10px;
+}
