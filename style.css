@@ -5,8 +5,19 @@ body {
   grid-column-gap: 15px;
 }
 
-aside, 
+aside,
 main {
   background-color: #fff;
   padding: 10px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 150px;
+  grid-gap: 20px;
+}
+
+main p {
+  background-color: rgba(26,188,156 ,1);
 }
