@@ -1,8 +1,8 @@
-body {
+/* body {
   background-color: rgba(26,188,156 ,1);
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-column-gap: 15px;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 30px;
 }
 
 aside,
@@ -19,5 +19,30 @@ main {
 }
 
 main p {
+  background-color: rgba(26,188,156 ,1);
+} */
+
+
+body {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 25px;
+}
+
+main {
+  background-color: rgba(26,188,156 ,1);
+  height: 60vh;
+}
+
+aside {
+  display: grid;
+  background-color: rgba(30,200,50 ,1);
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 10px;
+  grid-template-rows: 33%;
+  padding: 0 15px;
+}
+
+aside p {
   background-color: rgba(26,188,156 ,1);
 }
